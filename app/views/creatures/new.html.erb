@@ -1,0 +1,10 @@
+<h1>Creatures#new</h1>
+<p>Find me in app/views/creatures/new.html.erb</p>
+
+<%= bootstrap_form_for @creature do |c| %>
+	<%= c.text_field :name %>
+	<%= c.text_field :description %>
+	<%= c.primary %>
+<% end %>
+
+
